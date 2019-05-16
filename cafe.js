@@ -16,3 +16,10 @@ coffeeTime([{
   name: 'Marci',
   coffee: 'Ristretto India'
 }])
+
+squeezeLatteGuano(KopiLuwak, coffeeBeans) {
+  KopiLuwak.feed(coffeeBeans)
+  var excrement = KopiLuwak.defecate()
+  var beans = JSON.parse(excrement).getCoffeeBeans()
+  makeACupOfCoffee(beans)
+}
