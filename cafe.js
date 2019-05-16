@@ -23,3 +23,5 @@ squeezeLatteGuano(KopiLuwak, coffeeBeans) {
   var beans = JSON.parse(excrement).getCoffeeBeans()
   makeACupOfCoffee(beans)
 }
+
+balazs.try('commit' or 'something');
